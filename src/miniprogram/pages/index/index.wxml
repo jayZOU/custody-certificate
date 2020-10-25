@@ -1,0 +1,17 @@
+<view class="list">
+  <van-search value="{{ keyword }}" placeholder="请输入搜索关键词" />
+  <view>
+      <van-dropdown-menu>
+        <van-dropdown-item value="{{ labelOption.value }}" options="{{ labelOption.data }}" />
+      </van-dropdown-menu>
+  </view>
+  <view>
+    <view class="certs" wx:for="{{certs}}" wx:key="item">
+        <label text="{{item.label}}" style="float:left"></label>
+        <view class="certs_title">{{item.title}}</view>
+        <van-image mode="scaleToFill" width="100%" height="150" src="{{item.image}}" />
+
+    </view>
+  </view>  
+  <foot-tabbar defaultActive="index" />
+</view>

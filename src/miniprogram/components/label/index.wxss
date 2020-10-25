@@ -1,0 +1,6 @@
+.label {
+	padding: 10rpx;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 28rpx;
+}

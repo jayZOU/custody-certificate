@@ -1,0 +1,22 @@
+.list .van-dropdown-menu {
+	background-color: transparent;
+}
+.list .van-dropdown-menu__title {
+	color: #909399;
+}
+.list .van-dropdown-menu__item {
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+}
+
+.certs {
+	margin: 0 20rpx;
+	background-color: #ffffff;
+	padding: 20rpx;
+	border-radius: 15rpx;
+	text-align: center;
+	margin-bottom: 30rpx;
+}
+.certs_title {
+	margin-bottom: 30rpx;
+}

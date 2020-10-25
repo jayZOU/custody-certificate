@@ -1,0 +1,3 @@
+  <view class="label" style="background-color: {{bgCorlor.value}}">
+    {{text}}
+  </view>
